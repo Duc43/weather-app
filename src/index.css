@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-theme {
+        @apply  bg-gradient-to-t from-purple-900 to-blue-800
+    }
+
+    .bg-component {
+        @apply bg-blue-900 bg-opacity-20
+    }
+}
